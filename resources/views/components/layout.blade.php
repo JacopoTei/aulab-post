@@ -9,9 +9,15 @@
 </head>
 <body>
     <x-navbar></x-navbar>
-    <div class="min-vh-100">
-        {{$slot}}
-    </div>
+    <div class="container background min-vh-100">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8">
+                {{$slot}}
+    
+            </div>     
+        </div>
+     </div>
+    
     <x-footer></x-footer>
 </body>
 </html>
